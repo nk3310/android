@@ -44,3 +44,8 @@ fatal: unable to auto-detect email address (got 'sy@pc.(none)')
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen (%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 
+²鿴²ֿ⼶µÄconfig£¬¼´.git/.config£¬ÃüÁgit config ¨Clocal -l
+²鿴ȫ¾ּ¶µÄconfig£¬¼´~\.gitconfig£¬ÃüÁgit config ¨Cglobal -l
+²鿴ϵͳ¼¶µÄconfig£¬¼´c:\Program Files\Git\etc\gitconfig£¬ÃüÁgit config ¨Csystem -l
+²鿴µ±ǰÉúЧµÄÅäÖã¬ÃüÁgit config -l£¬Õâ¸öʱºò»áÏÔʾ×îÖÕÈý¸öÅäÖÃÎļþ¼ÆËãºóµÄÅäÖÃÐÅϢ£¬
+
